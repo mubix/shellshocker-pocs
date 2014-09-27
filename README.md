@@ -8,6 +8,8 @@ Please submit a pull request if you have more links or other resources
 ## HTTP
 + Metasploit Exploit Module Apache MOD_CGI - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb
 + HTTP Header Polution by @irsdl - http://pastebin.com/QNkf7dYS
++ HTTP CGI-BIN - http://pastebin.com/166f8Rjx
++ 
 
 ## DHCP
 + Metasploit Exploit Module - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/dhcp/bash_environment.rb
@@ -16,8 +18,8 @@ Please submit a pull request if you have more links or other resources
 
 ## SSH
 
-## OSX Priv Escalation
-
+## OSX
++ Priv Escalation via VMware Fusion - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/vmware_bash_function_root.rb
 
 ## SIP
 
