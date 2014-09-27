@@ -5,7 +5,16 @@ Collection of Proof of Concepts and Potential Targets for #ShellShocker
 
 Please submit a pull request if you have more links or other resources
 
-**Speculation:(Non-confirmed possibly vulnerable)** XMPP(ejabberd), Mailman, MySQL, NFS, Bind9 - If you know of PoCs for any of these, please submit an issue or pull request with a link.
+**Speculation:(Non-confirmed possibly vulnerable)** 
+
++ XMPP(ejabberd)
++ Mailman
++ MySQL
++ NFS
++ Bind9
++ FTP
+
+**If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
 ## Command Line (*nix Bash and Windows via Cygwin)
 + `env x='() { :;}; echo vulnerable' bash -c 'echo hello'`
