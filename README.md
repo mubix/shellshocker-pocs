@@ -18,6 +18,7 @@ Please submit a pull request if you have more links or other resources
 
 ## Command Line (*nix Bash and Windows via Cygwin)
 + `env x='() { :;}; echo vulnerable' bash -c 'echo hello'`
++ IBM z/OS - http://mainframed767.tumblr.com/post/98446455927/bad-news-is-it-totally-works-in-bash-on-z-os-and
 
 ## HTTP
 + Metasploit Exploit Module Apache MOD_CGI - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb
