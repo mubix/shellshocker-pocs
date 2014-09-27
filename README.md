@@ -24,7 +24,7 @@ Please submit a pull request if you have more links or other resources
 + Metasploit Exploit Module Apache MOD_CGI - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb
 + HTTP Header Polution by @irsdl - http://pastebin.com/QNkf7dYS
 + HTTP CGI-BIN - http://pastebin.com/166f8Rjx
-+ cPannel - http://blog.sucuri.net/2014/09/bash-vulnerability-shell-shock-thousands-of-cpanel-sites-are-high-risk.html
++ cPanel - http://blog.sucuri.net/2014/09/bash-vulnerability-shell-shock-thousands-of-cpanel-sites-are-high-risk.html
 + Invisiblethreat.ca - https://www.invisiblethreat.ca/2014/09/cve-2014-6271/
 
 ## DHCP
