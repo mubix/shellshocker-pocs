@@ -29,6 +29,7 @@ Please submit a pull request if you have more links or other resources
   + https://twitter.com/avalidnerd/status/515056463589675008
     + https://twitter.com/avalidnerd/status/515056463589675008/photo/1
 + Invisiblethreat.ca - https://www.invisiblethreat.ca/2014/09/cve-2014-6271/
++ Commandline version - https://gist.github.com/mfadzilr/70892f43597e7863a8dc
 
 ## DHCP
 + Trusted sec exploitation via Tftpd32 - https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
