@@ -12,7 +12,6 @@ Please submit a pull request if you have more links or other resources
 + MySQL
 + NFS
 + Bind9
-+ FTP
 
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
@@ -56,3 +55,6 @@ Please submit a pull request if you have more links or other resources
 
 ## TMNT
 + https://twitter.com/SynAckPwn/status/514961810320293888/photo/1
+
+## FTP
++ Pure-FTPd: https://gist.github.com/jedisct1/88c62ee34e6fa92c31dc
