@@ -50,6 +50,7 @@ Please submit a pull request if you have more links or other resources
 
 
 ## Qmail
++ Detailed walkthrough - http://marc.info/?l=qmail&m=141183309314366&w=2
 + Tweet from @ymzkei5 - http://twitter.com/ymzkei5/status/515328039765307392
   + http://twitpic.com/ec3615
   + http://twitpic.com/ec361o
