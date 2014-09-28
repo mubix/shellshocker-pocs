@@ -3,6 +3,8 @@ shellshocker-pocs
 
 Collection of Proof of Concepts and Potential Targets for #ShellShocker
 
+Wikipedia Link: https://en.wikipedia.org/wiki/Shellshock_%28software_bug%29#CVE-2014-7186_and_CVE-2014-7187_Details
+
 Please submit a pull request if you have more links or other resources
 
 **Speculation:(Non-confirmed possibly vulnerable)** 
