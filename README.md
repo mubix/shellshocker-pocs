@@ -44,6 +44,7 @@ _Fixed by CVE-2014-7169_
 + User-Agent based walkthrough with LiveHTTPHeaders - http://www.lykostech.net/lab-time-exploiting-shellshock-bash-bug-virtual-server/
 + User-Agent based walkthrough with Burp - http://oleaass.com/shellshock-proof-of-concept-reverse-shell/
 + User-Agent via Curl with test server - http://shellshock.notsosecure.com/
++ User-Agent based but supports Tor and Socks5 (Python) https://github.com/lnxg33k/misc/blob/master/shellshock.py
 
 ## DHCP
 + Trusted sec exploitation via Tftpd32 - https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
