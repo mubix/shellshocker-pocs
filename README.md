@@ -63,6 +63,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 + User-Agent via Curl with test server - http://shellshock.notsosecure.com/
 + User-Agent based but supports Tor and Socks5 (Python) - https://github.com/lnxg33k/misc/blob/master/shellshock.py
 + User-Agent based in Ruby - https://github.com/securusglobal/BadBash
++ Header based simple scanner using sleep with multithread support - https://github.com/gry/shellshock-scanner
 
 ## DHCP
 + Trusted sec exploitation via Tftpd32 - https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
