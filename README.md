@@ -38,7 +38,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 + `(for x in {1..200} ; do echo "for x$x in ; do :"; done; for x in {1..200} ; do echo done ; done) | bash || echo "CVE-2014-7187 vulnerable, word_lineno"`
 
 ### CVE-2014-6277
-+ `foo='() { echo "CVE-2014-6277 vulnerable"; }' bash -c foo`
++ 
 
 ## IBM z/OS - 
 + http://mainframed767.tumblr.com/post/98446455927/bad-news-is-it-totally-works-in-bash-on-z-os-and
