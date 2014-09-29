@@ -16,6 +16,7 @@ Please submit a pull request if you have more links or other resources
 + Bind9
 + Juniper Google Search`inurl:inurl:/dana-na/auth/url_default/welcome.cgi`
   + via: https://twitter.com/notsosecure/status/516132301025984512
+  + via: http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10648&actp=RSS
 
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
