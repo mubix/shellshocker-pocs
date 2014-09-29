@@ -63,7 +63,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 ## DHCP
 + Trusted sec exploitation via Tftpd32 - https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
 + Metasploit Exploit Module - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/dhcp/bash_environment.rb
-+ Metasploit Auxiliary Module - https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/dhcp.rb
++ Metasploit Auxiliary Module - https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/dhclient_bash_env.rb
 + Perl Script - http://pastebin.com/S1WVzTv9
 
 ## SSH
