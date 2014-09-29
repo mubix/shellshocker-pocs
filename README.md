@@ -50,6 +50,7 @@ Please submit a pull request if you have more links or other resources
 + Stack Overflow - http://unix.stackexchange.com/questions/157477/how-can-shellshock-be-exploited-over-ssh
 + SSH ForcedCommand - https://twitter.com/JZdziarski/status/515205581226123264
   + https://twitter.com/JZdziarski/status/515205581226123264/photo/1
++ SendEnv: `LC_X='() { :; }; echo vulnerable' ssh foo@bar.org -o SendEnv=LC_X`
 
 ## OSX
 + Priv Escalation via VMware Fusion - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/vmware_bash_function_root.rb
