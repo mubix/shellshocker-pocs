@@ -75,6 +75,10 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 ## OSX
 + Priv Escalation via VMware Fusion - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/vmware_bash_function_root.rb
 
+## OSX - with reverse DNS
++ Example zone file: [in-addr.arpa](osx-rev-ptr/in-addr.arpa.zone) that contains a CVE-2014-6271 example.
++ Example file with a getnameinfo() that passes on to setenv(): [osx-rev-ptr.c](osx-rev-ptr/osx-rev-ptr.c)
+
 ## SIP
 + SIP Proxies: https://github.com/zaf/sipshock
 
