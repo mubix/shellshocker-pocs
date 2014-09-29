@@ -43,6 +43,7 @@ _Fixed by CVE-2014-7169_
 + Commandline version - https://gist.github.com/mfadzilr/70892f43597e7863a8dc
 + User-Agent based walkthrough with LiveHTTPHeaders - http://www.lykostech.net/lab-time-exploiting-shellshock-bash-bug-virtual-server/
 + User-Agent based walkthrough with Burp - http://oleaass.com/shellshock-proof-of-concept-reverse-shell/
++ User-Agent via Curl with test server - http://shellshock.notsosecure.com/
 
 ## DHCP
 + Trusted sec exploitation via Tftpd32 - https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
