@@ -127,3 +127,8 @@ user@localhost:~$ env X='() { (a)=>\' /bin/bash -c "shellshocker echo -e \"     
       \|            |
 
 ```
+
+## Scripts from @primalsec
++ `shell_shocker.py` - Good for interacting with a known vulnerable URL to pass commands (User-Agent Method)
++ `w3af_shocker.py` - Automates the process of running a w3af spider/shell\_shock scan (User-Agent Method)
++ `shell_sprayer.py` - Checks across a list of URLs in a file, or a single URL against a known list of cgi-bin resources (User-Agent Method)
