@@ -84,6 +84,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 
 ## SIP
 + SIP Proxies: https://github.com/zaf/sipshock
+  + http://support.apple.com/kb/DL1769
 
 
 ## Qmail
