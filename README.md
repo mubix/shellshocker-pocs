@@ -107,6 +107,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 
 ## OpenVPN
 + OpenVPN - https://news.ycombinator.com/item?id=8385332
++ PoC Walkthrough by @fj33r - http://sprunge.us/BGjP
 
 ## Oracle
 + [Alert and list of affected Products](http://www.oracle.com/technetwork/topics/security/alert-cve-2014-7169-2303276.html)
