@@ -81,7 +81,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 
 ## OSX
 + Priv Escalation via VMware Fusion - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/vmware_bash_function_root.rb
-  + Fix: http://support.apple.com/kb/DL1769
++ Fix: http://support.apple.com/kb/DL1769
 
 ## SIP
 + SIP Proxies: https://github.com/zaf/sipshock
