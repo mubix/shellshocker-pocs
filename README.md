@@ -125,3 +125,6 @@ user@localhost:~$ env X='() { (a)=>\' /bin/bash -c "shellshocker echo -e \"     
       \|            |
 
 ```
+
+## OpenVPN
++ OpenVPN - https://news.ycombinator.com/item?id=8385332
