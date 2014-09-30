@@ -56,6 +56,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 + HTTP Header Polution by @irsdl - http://pastebin.com/QNkf7dYS
 + HTTP CGI-BIN - http://pastebin.com/166f8Rjx
 + cPanel - http://blog.sucuri.net/2014/09/bash-vulnerability-shell-shock-thousands-of-cpanel-sites-are-high-risk.html
++ Digital Alert Systems DASDEC - http://seclists.org/fulldisclosure/2014/Sep/107
 + F5 - https://twitter.com/securifybv/status/515035044294172673
   + https://twitter.com/securifybv/status/515035044294172673/photo/1
   + https://twitter.com/avalidnerd/status/515056463589675008
