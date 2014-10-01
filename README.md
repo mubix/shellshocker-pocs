@@ -29,7 +29,7 @@ Please submit a pull request if you have more links or other resources
 + [bashcheck](https://github.com/hannob/bashcheck) - script to test for the latest vulns
 
 ### CVE-2014-6271
-+`env X='() { :; }; echo "CVE-2014-6271 vulnerable"' bash -c id`
++ `env X='() { :; }; echo "CVE-2014-6271 vulnerable"' bash -c id`
 
 ### CVE-2014-7169
 _will create a file named echo in cwd with date in it, if vulnerable_
@@ -42,10 +42,13 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 + `(for x in {1..200} ; do echo "for x$x in ; do :"; done; for x in {1..200} ; do echo done ; done) | bash || echo "CVE-2014-7187 vulnerable, word_lineno"`
 
 ### CVE-2014-6278
-+
++ `() { _; } >_[$($())] { echo hi mom; id; }`
 
 ### CVE-2014-6277
-+ 
+_will segfault if vulnerable_
++ `() { x() { _; }; x() { _; } <<a; }`
++ Additional discussion on fulldisclosure: http://seclists.org/fulldisclosure/2014/Oct/9
+
 
 
 ## IBM z/OS - 
