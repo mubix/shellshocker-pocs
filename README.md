@@ -21,6 +21,7 @@ Please submit a pull request if you have more links or other resources
   + via: http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10648&actp=RSS
 + Cisco Gear
   + via: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140926-bash
++ CUPS [see](https://access.redhat.com/articles/1200223)
 
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
