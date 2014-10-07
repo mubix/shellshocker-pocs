@@ -107,6 +107,9 @@ _will segfault if vulnerable_
   + http://twitpic.com/ec3615
   + http://twitpic.com/ec361o
 
+## Postfix
++ http://packetstormsecurity.com/files/128572/postfixsmtp-shellshock.txt
+
 ## FTP
 + Pure-FTPd: https://gist.github.com/jedisct1/88c62ee34e6fa92c31dc
 
