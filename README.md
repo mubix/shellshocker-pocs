@@ -10,7 +10,7 @@ Please submit a pull request if you have more links or other resources
 **Speculation:(Non-confirmed possibly vulnerable)** 
 
 + XMPP(ejabberd)
-+ Mailman
++ ~~Mailman~~ - [confirmed not vulnerable](http://www.mail-archive.com/mailman-users%40python.org/msg65380.html)
 + MySQL
 + NFS
 + Bind9
