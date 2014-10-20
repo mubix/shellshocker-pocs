@@ -21,7 +21,6 @@ Please submit a pull request if you have more links or other resources
   + via: http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10648&actp=RSS
 + Cisco Gear
   + via: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140926-bash
-+ CUPS [see](https://access.redhat.com/articles/1200223)
 
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
@@ -154,6 +153,9 @@ user@localhost:~$ env X='() { (a)=>\' /bin/bash -c "shellshocker echo -e \"     
       \|            |
 
 ```
+
+## CUPS
++ Metasploit Exploit Module - [CUPS Filter Bash Environment Variable Code Injection](https://github.com/rapid7/metasploit-framework/pull/4050)
 
 ## Scripts from @primalsec
 + `shell_shocker.py` - Good for interacting with a known vulnerable URL to pass commands (User-Agent Method)
