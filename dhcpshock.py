@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
 #Based on the PoC from https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
+#Created by @byt3bl33d3r
 
 import binascii
 import argparse
