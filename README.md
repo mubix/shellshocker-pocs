@@ -21,6 +21,7 @@ Please submit a pull request if you have more links or other resources
   + via: http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10648&actp=RSS
 + Cisco Gear
   + via: http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140926-bash
++ FreePB / Asterix [patched here](http://community.freepbx.org/t/cve-2014-6271-shellshock-bash-exploit/24431)
 
 **If you know of PoCs for any of these, please submit an issue or pull request with a link.**
 
