@@ -21,7 +21,7 @@ def scanner(RHOST):
                 	print URL +": "+str(e)
 
 def main():
-	parser = optparse.OptionParser(sys.argv[0]+'-r <file_with URLs> || -i <URL> without ending slash')
+	parser = optparse.OptionParser(sys.argv[0]+' -r <file_with URLs> || -i <URL> without ending slash')
         parser.add_option('-r', dest='RHOSTS', type='string', help='specify target file with URLs')
 	parser.add_option('-i', dest='RHOST', type='string', help='specify target URL')
         (options, args) = parser.parse_args()
