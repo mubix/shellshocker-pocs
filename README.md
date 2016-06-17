@@ -58,7 +58,9 @@ _will segfault if vulnerable_
 + http://mainframed767.tumblr.com/post/98446455927/bad-news-is-it-totally-works-in-bash-on-z-os-and
 
 ## HTTP
-+ Metasploit Exploit Module Apache MOD_CGI - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb
++ Metasploit Exploit Module - [Apache mod_cgi Bash Environment Variable Code Injection (Shellshock)](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/http/apache_mod_cgi_bash_env_exec.rb)
++ Metasploit Exploit Module - [Advantech Switch Bash Environment Variable Code Injection (Shellshock)](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/advantech_switch_bash_env_exec.rb)
++ Metasploit Exploit Module - [IPFire Bash Environment Variable Injection (Shellshock)](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/linux/http/ipfire_bashbug_exec.rb)
 + HTTP Header Polution by @irsdl - http://pastebin.com/QNkf7dYS
 + HTTP CGI-BIN - http://pastebin.com/166f8Rjx
 + cPanel - http://blog.sucuri.net/2014/09/bash-vulnerability-shell-shock-thousands-of-cpanel-sites-are-high-risk.html
@@ -75,13 +77,14 @@ _will segfault if vulnerable_
 + User-Agent based but supports Tor and Socks5 (Python) - https://github.com/lnxg33k/misc/blob/master/shellshock.py
 + User-Agent based in Ruby - https://github.com/securusglobal/BadBash
 + Header based simple scanner using sleep with multithread support - https://github.com/gry/shellshock-scanner
++ [shocker](https://github.com/nccgroup/shocker) - Checks across a list of URLs in a file, or a single URL, against a list of known vulnerable CGI resources (Content-type Method)
 
 ## Phusion Passenger
 + https://news.ycombinator.com/item?id=8369776 
 
 ## DHCP
 + Trusted sec exploitation via Tftpd32 - https://www.trustedsec.com/september-2014/shellshock-dhcp-rce-proof-concept/
-+ Metasploit Exploit Module - https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/dhcp/bash_environment.rb
++ Metasploit Exploit Module - [Dhclient Bash Environment Variable Injection (Shellshock)](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/dhcp/bash_environment.rb)
 + Metasploit Auxiliary Module - https://github.com/rapid7/metasploit-framework/blob/master/modules/auxiliary/server/dhclient_bash_env.rb
 + Perl Script - http://pastebin.com/S1WVzTv9
 + using a Wi-Fi pineapple to force people to join the network - http://d.uijn.nl/?p=32
@@ -119,6 +122,7 @@ _will segfault if vulnerable_
 
 ## FTP
 + Pure-FTPd: https://gist.github.com/jedisct1/88c62ee34e6fa92c31dc
++ Metasploit Exploit Module - [Pure-FTPd External Authentication Bash Environment Variable Code Injection (Shellshock)](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/ftp/pureftpd_bash_env_exec.rb)
 
 ## OpenVPN
 + OpenVPN - https://news.ycombinator.com/item?id=8385332
@@ -157,6 +161,10 @@ user@localhost:~$ env X='() { (a)=>\' /bin/bash -c "shellshocker echo -e \"     
 
 ## CUPS
 + Metasploit Exploit Module - [CUPS Filter Bash Environment Variable Code Injection](https://github.com/rapid7/metasploit-framework/pull/4050)
+
+## IRC
++ Metasploit Exploit Module - [Xdh / LinuxNet Perlbot / fBot IRC Bot Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/xdh_x_exec.rb)
++ Metasploit Exploit Module - [Legend Perl IRC Bot Remote Code Execution](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/multi/misc/legend_bot_exec.rb)
 
 ## Scripts from @primalsec
 + `shell_shocker.py` - Good for interacting with a known vulnerable URL to pass commands (User-Agent Method)
