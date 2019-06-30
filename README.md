@@ -78,6 +78,8 @@ _will segfault if vulnerable_
 + User-Agent based in Ruby - https://github.com/securusglobal/BadBash
 + Header based simple scanner using sleep with multithread support - https://github.com/gry/shellshock-scanner
 + [shocker](https://github.com/nccgroup/shocker) - Checks across a list of URLs in a file, or a single URL, against a list of known vulnerable CGI resources (Content-type Method)
++ Xymon - https://lists.xymon.com/archive/2014-September/040350.html
++ QNAP - https://www.exploit-db.com/exploits/36503
 
 ## Phusion Passenger
 + https://news.ycombinator.com/item?id=8369776 
