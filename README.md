@@ -73,7 +73,6 @@ _will segfault if vulnerable_
 + Commandline version - https://gist.github.com/mfadzilr/70892f43597e7863a8dc
 + User-Agent based walkthrough with LiveHTTPHeaders - http://www.lykostech.net/lab-time-exploiting-shellshock-bash-bug-virtual-server/
 + User-Agent based walkthrough with Burp - http://oleaass.com/shellshock-proof-of-concept-reverse-shell/
-+ User-Agent via Curl with test server - http://shellshock.notsosecure.com/
 + User-Agent based but supports Tor and Socks5 (Python) - https://github.com/lnxg33k/misc/blob/master/shellshock.py
 + User-Agent based in Ruby - https://github.com/securusglobal/BadBash
 + Header based simple scanner using sleep with multithread support - https://github.com/gry/shellshock-scanner
